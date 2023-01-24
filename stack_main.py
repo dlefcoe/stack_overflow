@@ -30,3 +30,4 @@ https://stackoverflow.com/help/how-to-ask
 # %%
 
 print('hello world')
+print('hi there')
