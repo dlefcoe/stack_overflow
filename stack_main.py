@@ -31,3 +31,13 @@ https://stackoverflow.com/help/how-to-ask
 
 print('hello world')
 print('hi there')
+
+def main():
+    ''' main function '''
+    pass
+    return
+
+
+if __name__=='__main__':
+    # This is executed when run from the command line
+    main()
