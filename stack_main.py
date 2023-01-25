@@ -29,15 +29,28 @@ https://stackoverflow.com/help/how-to-ask
 
 # %%
 
+# import speech_recognition as sr
+
+import pandas as pd
+
 print('hello world')
 print('hi there')
 
 def main():
     ''' main function '''
-    pass
+    read_file()
     return
 
+def read_file():
+    '''
+    reads a file
+    '''
+    df = pd.read_csv('test.csv')
+    print(df)
+
+    return
 
 if __name__=='__main__':
-    # This is executed when run from the command line
+    # run as the main program guard
     main()
+
